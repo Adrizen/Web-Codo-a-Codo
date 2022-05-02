@@ -1,0 +1,28 @@
+.navbar {
+    display: inline-flex;
+    
+}
+
+.opcionesnavbar{
+    font-size: 40px;
+    font-family: 'airstrike';
+    margin: 0.3em;
+    color: black;
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.opcionesnavbar:hover {
+    color: dodgerblue;
+}
+
+/* Fuente título YSY */
+@font-face {
+    font-family: 'airstrike';
+    src: url(/fonts/airstrike/airstrike.ttf);
+}
+
+.descripción {
+    font-family: 'Raleway';
+    color: black;
+}

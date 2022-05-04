@@ -1,11 +1,48 @@
+body {
+    background-color:silver;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/* Fuente título YSY */
+@font-face {
+    font-family: 'airstrikebullet';
+    src: url(/fonts/airstrike/airstrikebullet.ttf);
+}
+
+@font-face {
+    font-family: 'airstrike';
+    src: url(/fonts/airstrike/airstrike.ttf);
+}
+
+@font-face {
+    font-family: 'airstrike3d';
+    src: url(/fonts/airstrike/airstrike3d.ttf);
+}
+
+@font-face {
+    font-family: 'airstrikeacad';
+    src: url(/fonts/airstrike/airstrikeacad.ttf);
+}
+
+.nombreweb {
+    font-size: 6vw;
+    color: black;
+    font-family: 'airstrikebullet';
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
-    display: inline-flex;
-    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+    border: 2px solid black;
 }
 
 .opcionesnavbar{
-    font-size: 40px;
     font-family: 'airstrike';
+    font-size: 4vw;
     margin: 0.3em;
     color: black;
     text-decoration: none;
@@ -16,13 +53,53 @@
     color: dodgerblue;
 }
 
-/* Fuente título YSY */
-@font-face {
-    font-family: 'airstrike';
-    src: url(/fonts/airstrike/airstrike.ttf);
+.principal {
+    margin-top: 2vw;
+    display: flex;
+    height: 40vw;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(/img/autos/bugatti.jpg);
+}
+
+.textoenprincipal {
+    font-family: 'airstrike3d';
+    color: white;
+    align-self: flex-end;
+    font-size: 5vw;
+    margin-bottom: 2vw;
 }
 
 .descripción {
     font-family: 'Raleway';
+    font-weight: 1000;
+    font-size: 1.2vw;
     color: black;
+}
+
+.tresarticulos{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articulovertical{
+    background-size: cover;
+    height: 30vw;
+    width: 28vw;
+    background-position: center;
+}
+
+.textoarticulovertical {
+    font-family: 'airstrikeacad';
+    margin-left: 1vw;
+    color: white;
+    align-self: flex-end;
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+.footer {
+    margin-top: 3vw;
+    display: flex;
 }

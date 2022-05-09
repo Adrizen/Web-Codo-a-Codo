@@ -75,6 +75,7 @@ body {
     font-weight: 1000;
     font-size: 1.2vw;
     color: black;
+    margin-bottom: 3vw;
 }
 
 .tresarticulos{
@@ -103,13 +104,16 @@ body {
     margin-top: 3vw;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2vw;
 }
 
-.item {
+.item h1{
     display: flex;
     flex-direction: row;
     font-family: 'Raleway'; 
     font-size: 1.7vw;
+    font-weight: 1000;
+    color: black;
 }
 
 .extrainfo {
@@ -121,4 +125,9 @@ body {
 .extrainfo h1{
     font-family: 'Raleway';
     font-size: 1.7vw;
+}
+
+#formulario {
+    border: 2px solid black;
+    padding: 1vw;
 }
